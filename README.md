@@ -1,3 +1,5 @@
+# Creator: ```Abiodun Olaluwe
+# Email:   ```oolaluwe@gmail.com
 # Graph Search
 This project implements Depth and Breadth First, Uniform Cost, and A* Searches in c++
 
