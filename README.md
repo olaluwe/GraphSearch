@@ -46,7 +46,7 @@ The file names of the header and corresponding `.cpp` files are descriptive of t
 ### Dependencies
 
 Requires:
-- C++11 compliant compiler or newer
+- >=C++17 compliant compiler or newer
 - Make
 - IDE (e.g., VSCode)
 
