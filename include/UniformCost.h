@@ -1,15 +1,14 @@
-// RomaniaMap.h
-#ifndef GRAPH_H
+#ifndef UNIFORMCOST_H
 #define GRAPH_H
 
-#include <map>
-#include <string>
-#include <vector>
+#include <Include.h>
 
-typedef std::pair<std::string, int> Edge; // Neighbor, Cost
-typedef std::vector<Edge> AdjList; // List of edges
-typedef std::map<std::string, AdjList> Graph; // Graph as an adjacency list
+using namespace std;
 
-Graph createGraph();
+class UniformCost
+{
+  public:
+    std::pair<std::vector<std::string>, int> UniformCostSearch(const Graph&, const std::string&, const std::string&);
+};
 
 #endif // GRAPH_H
