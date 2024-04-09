@@ -48,7 +48,7 @@ Requires:
 How to install your project, step by step.
 
 ```bash
-```git clone https://github.com/GraphSearch.git
+```git clone https://github.com/olaluwe/GraphSearch.git
 ```cd GraphSearch
 ```make
 ```./bin/GraphSearch
