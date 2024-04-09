@@ -32,4 +32,11 @@
 *.out
 *.app
 
+# Ignore everything in the bin directory
+bin/*
+
+# Ignore everything in the build directory
+build/*
+
+
 # End of https://www.toptal.com/developers/gitignore/api/c++
