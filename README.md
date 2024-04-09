@@ -1,11 +1,15 @@
-# Creator: ```Abiodun Olaluwe
-# Email:   ```oolaluwe@gmail.com
+# Creator: Abiodun Olaluwe
+# Email: 
+
 # Graph Search
-This project implements Depth and Breadth First, Uniform Cost, and A* Searches in c++
+
+This project implements Depth and Breadth First, Uniform Cost, and A* Searches in C++.
 
 ## Description
+
 The directory structure and content after compiling and linking is shown below:
 
+```
 ├── bin
 │   └── GraphSearch
 ├── build
@@ -29,28 +33,32 @@ The directory structure and content after compiling and linking is shown below:
     ├── main.cpp
     ├── Misc.cpp
     └── UniformCost.cpp
+```
 
-The file names of the header and corresponding .cpp file is descriptive of functions.
+The file names of the header and corresponding `.cpp` files are descriptive of their functions.
 
 ## Getting Started
-1. Install a functional IDE on preferably a Linux machine
-1. Install basic development tools (e.g. sudo apt install build-essential)
-1. Install git, gh and tree (e.g. sudo apt install git gh tree)
+
+1. Install a functional IDE on preferably a Linux machine.
+2. Install basic development tools (e.g., `sudo apt install build-essential`).
+3. Install Git, GH, and Tree (e.g., `sudo apt install git gh tree`).
 
 ### Dependencies
 
 Requires:
-  >=C++11 compliant compiler
-  make
-  IDE (e.g. vscode)
-
+- C++11 compliant compiler or newer
+- Make
+- IDE (e.g., VSCode)
 
 ### Installing
 
-How to install your project, step by step.
+Follow these steps to install and run the project:
 
-```bash
-```git clone https://github.com/olaluwe/GraphSearch.git
-```cd GraphSearch
-```make
-```./bin/GraphSearch
+```bash```
+```
+git clone https://github.com/olaluwe/GraphSearch.git
+cd GraphSearch
+make
+./bin/GraphSearch
+```
+
