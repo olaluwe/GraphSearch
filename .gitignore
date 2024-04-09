@@ -1,3 +1,7 @@
+### C++ ###
+# Prerequisites
+*.d
+
 # Compiled Object files
 *.slo
 *.lo
@@ -28,47 +32,4 @@
 *.out
 *.app
 
-# Debug files
-*.pdb
-*.ilk
-*.dSYM/**
-
-# Build folders
-bin/*.*
-obj/*.*
-build/*.*
-debug/*.*
-release/*.*
-
-# Backup & other files to ignore
-*~
-*.swp
-*.tmp
-
-# VS Code folders
-.vscode/
-
-# Dependency directories (uncomment if you prefer to ignore them)
-# node_modules/
-# vendor/
-
-# Ignore CMake files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-*.cmake
-Makefile
-
-# Ignore files related to CMake builds
-/*.user
-/*.user.*.suo
-/*.userosscache
-/*.sln.docstates
-
-# Exclude Visual Studio Code project files
-.vs/
-.vscode/
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-.vscode
+# End of https://www.toptal.com/developers/gitignore/api/c++
