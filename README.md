@@ -1,5 +1,4 @@
-# Creator: Abiodun Olaluwe
-# Email: 
+# Author: Abiodun Olaluwe
 
 # Graph Search
 
