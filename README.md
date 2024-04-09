@@ -1,7 +1,6 @@
-# Author: Abiodun Olaluwe
-
 ## Graph Search
 This project implements Depth and Breadth First, Uniform Cost, and A* Searches in C++.
+```Contributors: Abie Olaluwe ```
 
 ## Description
 The directory structure and content after compiling and linking is shown below:
