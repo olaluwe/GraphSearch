@@ -34,11 +34,11 @@
 *.dSYM/**
 
 # Build folders
-bin/*
-obj/*
-build/*
-debug/*
-release/*
+bin/*.*
+obj/*.*
+build/*.*
+debug/*.*
+release/*.*
 
 # Backup & other files to ignore
 *~

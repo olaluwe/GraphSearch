@@ -1,40 +1,4 @@
 # # Makefile for C++ project
-
-# # Compiler settings -
-# CXX = g++
-# CXXFLAGS = -Wall -Wextra -std=c++17 -Iinclude
-# LDFLAGS =
-
-# # Put your source files here (use wildcard to include all .cpp files)
-# SOURCES = $(wildcard src/*.cpp)
-
-# # Ensure the build directory exists
-# $(shell mkdir -p build)
-
-# # Object files will be generated from .cpp source files
-# OBJECTS = $(SOURCES:src/%.cpp=build/%.o)
-
-# # Name of the executable to be created
-# TARGET = bin/app
-
-# # Ensure the bin directory exists
-# $(shell mkdir -p bin)
-
-# # Rule to create the executable
-# $(TARGET): $(OBJECTS)
-# 	$(CXX) $(OBJECTS) -o $@ $(LDFLAGS)
-
-# # Rule to create object files
-# build/%.o: src/%.cpp
-# 	$(CXX) $(CXXFLAGS) -c $< -o $@
-
-# # Rule to clean files created during compilation
-# clean:
-# 	rm -f $(OBJECTS) $(TARGET)
-# 	rm -rf bin # This line is optional and will remove the bin directory entirely on clean
-
-# .PHONY: clean
-
 # Compiler
 CC = g++
 
